@@ -1,4 +1,4 @@
-FROM redhat:latest
+FROM redhat/ubi8
 MAINTAINER thulanikula3@gmail.com
 RUN yum install -y httpd\
     zip\
