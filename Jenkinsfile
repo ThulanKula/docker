@@ -4,7 +4,7 @@ node {
             checkout scm
         }
         stage('Setup') {
-            sh "ansible-galaxy install -r requirements.yml"
+            //sh "ansible-galaxy install -r requirements.yml"
         }
         stage('Validate') {
             sh "packer validate jenkins.json"
